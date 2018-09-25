@@ -1,2 +1,2 @@
-# lyn2..github.io
+# lyn2.github.io
 website
