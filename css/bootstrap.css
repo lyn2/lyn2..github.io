@@ -4960,9 +4960,9 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
   color: inherit;
   background-color: #eee;
 }
@@ -4971,7 +4971,7 @@ a.badge:focus {
   color: inherit;
 }
 .jumbotron p {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-size: 21px;
   font-weight: 200;
 }
@@ -6760,4 +6760,14 @@ button.close {
     display: none !important;
   }
 }
+#map {
+  height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */

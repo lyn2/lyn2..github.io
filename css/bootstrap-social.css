@@ -145,3 +145,51 @@
 .btn-yahoo:active,.btn-yahoo.active,.open>.dropdown-toggle.btn-yahoo{background-image:none}
 .btn-yahoo.disabled,.btn-yahoo[disabled],fieldset[disabled] .btn-yahoo,.btn-yahoo.disabled:hover,.btn-yahoo[disabled]:hover,fieldset[disabled] .btn-yahoo:hover,.btn-yahoo.disabled:focus,.btn-yahoo[disabled]:focus,fieldset[disabled] .btn-yahoo:focus,.btn-yahoo.disabled.focus,.btn-yahoo[disabled].focus,fieldset[disabled] .btn-yahoo.focus,.btn-yahoo.disabled:active,.btn-yahoo[disabled]:active,fieldset[disabled] .btn-yahoo:active,.btn-yahoo.disabled.active,.btn-yahoo[disabled].active,fieldset[disabled] .btn-yahoo.active{background-color:#720e9e;border-color:rgba(0,0,0,0.2)}
 .btn-yahoo .badge{color:#720e9e;background-color:#fff}
+
+footer{
+    color: white;
+  }
+  footer a{
+    color: #bfffff;
+  }
+  footer a:hover{
+    color: white;
+  }
+  
+  .footer-bottom{
+    background: #3d6277;
+    padding: 2em;
+  }
+  .footer-top{
+    background: #2d4958;  
+  }
+  .footer-middle{
+     background: #3d6277;
+    padding-top: 2em;
+    color: white;
+  }
+  /**Sub Navigation**/
+  .subnavigation-container{
+    background: #3d6277;
+  }
+  .subnavigation .nav-link{
+    color: white;
+    font-weight: bold;
+  }
+  .subnavigation-container{
+    text-align: center;
+  }
+  .subnavigation-container .navbar{
+    display: inline-block;
+    margin-bottom: -6px; /* Inline-block margin offffset HACK -Gilron */
+  }
+  .col-subnav a{
+    padding: 1rem 1rem;
+    color: white;
+    font-weight: bold;
+  }
+  .col-subnav .active{
+    border-top:5px solid orange;
+   background: white;
+    color: black;
+  }
